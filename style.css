@@ -42,7 +42,7 @@ form {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, .form-label,  {
+h1, h2, .form-label {
   font-family: 'Quicksand', cursive;
 }
 
@@ -432,7 +432,7 @@ nav {
 }
 
 .login-heading h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
     font-size: 30px;
     margin-bottom: 12px;
 }
@@ -466,7 +466,7 @@ nav {
     padding: 13px 15px;
     border: 1px solid #E9DDD5;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 13px;
     outline: none;
     background-color: #FFFDFC;
@@ -505,7 +505,7 @@ nav {
     border: none;
     padding: 14px;
     border-radius: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display';
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
@@ -534,4 +534,49 @@ footer { /*Styling the footer*/
     font-size: 16px;
     color: #02480a;
     font-style: italic;
+}
+
+.password-requirements,
+.password-message {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.password-message.is-invalid {
+  color: #a32626;
+}
+
+.password-message.is-valid {
+  color: #176b32;
+}
+
+@media (max-width: 767.98px) {
+  header {
+    padding: 16px 5%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 16px;
+  }
+
+  .row.vh-100 {
+    height: auto !important;
+    min-height: 0;
+  }
+
+  .row > .col-md-6:first-child {
+    padding: 32px 16px;
+  }
+
+  .row > .col-md-6:last-child {
+    height: 40vh;
+    min-height: 240px;
+  }
 }
