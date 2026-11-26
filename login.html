@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kittyrest</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+        <nav class="navbar">
+            
+            <div class="logo">
+                <a href="home_page.html">Kittyrest</a>
+                <img src="logo.svg" alt="Logo icon">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="home_page.html">Home</a></li>
+                <li><a href="breeds.html">Breeds</a></li>
+                <li><a href="care.html">Cat Care</a></li>
+                <li><a href="fun.html">Fun Zone</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>  
+  <div class="container-fluid">
+  <div class="row vh-100">
+
+    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+  <h1 class="fw-light">Welcome to Kittyrest!</h1>
+  <p> </p>
+  <form class="w-75">
+    <h2 class="fw-light mb-4 text-start w-75">Log in to Kittyrest for rest and kitty.</h2>
+    <div class="mb-3 text-start">
+      <label for="login" class="form-label">Your Login</label>
+      <input type="text" class="form-control" id="login" name="login">
+    </div>
+    <div class="mb-3 text-start">
+      <label for="password" class="form-label">Your Password</label>
+      <input type="password" class="form-control" id="password" name="password">
+    </div>
+    <p class="text-end"><a href="#" class="forgot-link">Forgot password?</a></p>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-log-in">Log in</button>
+      <p class="my-2">Or</p>
+      <button type="button" class="btn btn-sign-up">Sign up</button>
+    </div>
+  </form>
+
+  <a href="https://uanimals.org" target="_blank" class="text-link mt-3">
+    You can endow the organization to help them →
+  </a>
+</div>
+
+    <div class="col-md-6 p-0">
+      <img src="cat.jpg" class="cover-img" alt="Cat">
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
