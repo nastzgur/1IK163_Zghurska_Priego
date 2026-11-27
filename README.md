@@ -8,36 +8,21 @@ Website about cats inspired in Pinterest. You can find good photos, information 
 
 ## Structure
 
+```text
 project/
-
 │
-
 ├── about.html
-
 ├── home_page.html
-
 ├── login.html
-
 ├── login.js
-
 ├── style.css
-
 ├── README.md
-
 │
-
 ├── breeds/
-
 │   ├── maine_coon.jpg
-
 │   ├── persian.jpg
-
 │   └── siamese.jpg
-
 │
-
 └── us/
-
     ├── clara.jpg
-
     └── anastasia.jpg
